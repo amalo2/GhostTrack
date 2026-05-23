@@ -17,6 +17,7 @@ pip3 install -r requirements.txt
 ```
 pkg install git
 pkg install python3
+pip install -r requirements.txt
 ```
 
 ### Usage Tool
@@ -28,6 +29,8 @@ python3 GhostTR.py
 ```
 
 > **Note (personal):** If you run into issues with `phonenumbers` or `requests` not found, make sure you're running `pip3` and not `pip`, and that your Python version is 3.7+.
+
+> **Note (personal):** On Termux, if `pip install -r requirements.txt` fails, try `pip install phonenumbers requests` manually — that covers the two main dependencies.
 
 Display on the menu ```IP Tracker```
 
