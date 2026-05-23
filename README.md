@@ -32,6 +32,8 @@ python3 GhostTR.py
 
 > **Note (personal):** On Termux, if `pip install -r requirements.txt` fails, try `pip install phonenumbers requests` manually — that covers the two main dependencies.
 
+> **Note (personal):** On some systems Python 3 may be aliased as `python` instead of `python3`. If `python3 GhostTR.py` gives a "command not found" error, try `python GhostTR.py` instead.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
